@@ -150,11 +150,44 @@
 
 
 //____________________________Reverse_____________________________
-let arr = [3,7,2,7,5];
+// let arr = [3,7,2,7,5];
 
-let reversed = [];
+// let reversed = [];
 
-for(let i =arr.length-1;i>=0;i--){
-    reversed.push(arr[i]);
-}
-console.log(reversed)
+// for(let i =arr.length-1;i>=0;i--){
+//     reversed.push(arr[i]);
+// }
+// console.log(reversed)
+
+
+
+// let sum = 0;
+
+// for(let i = 1; i <= 3; i++){
+//     sum = sum + i;
+// }
+
+// console.log(sum);
+
+
+
+
+
+
+//_________________________Duplicate check(Brute force)_________________________
+// for(let i=0;i<n;i++){
+//   for(let j=i+1;j<n;j++){
+//     if(arr[i] === arr[j]){
+//       console.log("duplicate");
+//     }
+//   }
+// }
+
+
+
+//))))))))))))))Duplicate(optimized)________________________
+// let set = new Set(arr);
+
+// if(set.size !== arr.length){
+//     console.log("duplicate");
+// }
